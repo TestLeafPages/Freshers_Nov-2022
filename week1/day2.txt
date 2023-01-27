@@ -1,0 +1,68 @@
+      Data types
+1.Primitive datatypes
+  1.int
+  2.float
+  3.long
+  4.double
+  5.short
+  6.byte
+  7.char
+  8.boolean
+2.Non-Primitive datatypes
+   Arrays,String Interface
+
+
+Syntax for Datatypes:
+ datatype variablName= value;
+
+int a=10;
+here,
+int --- data type
+ a --- variableName
+10 --- value
+
+Variables:
+1.Local Variable
+2.Global Variable
+3.Static Variable
+
+
+
+
+
+
+EmployeeDetails
+
+employeeName      --Kani
+employeeLastName  -- R
+employeeId        -- 1011
+employeeMobileNumber --1562636376876
+employeeSalary       --543.7553
+employeeIsAbsent     --true /false
+
+
+1.What is a Class?
+2.What is an object?
+3.Explain main method?
+4.Difference between Local and Global Variables?
+5.What are the primitive Data types available in java?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

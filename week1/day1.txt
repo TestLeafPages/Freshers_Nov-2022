@@ -1,0 +1,115 @@
+             Java
+
+Java is object oriented programming language
+
+Why Java
+1.Java is high level programming language
+2.High Security
+3.Platform Independent
+4.Java is open source
+Purpose of Java
+1.Java is used for developing all types of cross platform application
+2.Java used for Mobile App developing
+3.Desktop
+4.Web
+5.Server Side
+6.Dynamic WebApplication
+
+
+
+JDK- Java Development Kit
+JRE- Java Runtime Environment
+JVM - Java Virtual Machine
+
+
+All java files should be created under
+-----------------------------------
+src/main/java  - Dev
+src/test/java  - Testing
+
+
+src/main/resource
+src/test/resource
+(.xlsx,.json,properties,config)
+
+
+ Class:
+Class is a group of object which have common properties.It's Blueprint or template from which object are created.A java class can contain field,method,variable,constructor and block of code...
+
+syntax for class:
+
+public  class Car{
+
+-------block of code---
+                  }
+here,
+public --Access Modifier
+class -- keyword
+car -- className
+
+Object:
+An instance of a class is called object.
+Obkect is a Realtime entity.
+
+Syntax for  Object creation:
+Classname objectName=new className (or) Constructor();
+
+
+Syntax for method:
+public void driveCar(){
+------------------------
+             }
+here,
+public --Access Modifier
+void -- return type
+driveCar()-- method Name
+
+While Creating a class What are the naming convention should be followed?
+ClassName: PascalNotations, Start with capital,when we have multiple words, the second word init cap
+
+MethodName: Camelcase   Start with lowercase,when we have multiple words, the second word init cap
+
+objectName:Camelcase, Start with lowercase,when we have multiple words, the second word init cap
+
+VariableName:Camelcase,Start with lowercase,when we have multiple words, the second word init cap
+
+Explain main method:
+
+ public static void main(String[] args) {
+
+      }
+public -- It is Access modifiers ,it can access from anywhere of the class
+static -- static is keyword,  without instace of a class
+void --- void is a return type. here does't return anything
+main()--- method name
+String[] args -- command line Aruguments  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
