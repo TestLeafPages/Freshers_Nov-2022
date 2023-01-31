@@ -1,0 +1,88 @@
+If Condition:
+ when my condition is true the if block get executed
+syntax :
+
+   if(condition){
+     
+     }
+
+public class ToPrintNegativeNumber|{
+
+public static void main(String []args){
+int a=-1;
+
+if(0<a){
+  System.out.println("The given Number is Negative Number");
+
+}
+
+}
+}
+
+Synatx for Loop:
+
+for(Initialization;Condition;Increment/Decrement){
+  ---------------------------------
+                 }  
+If i know the start and end poiont ,i should use for loop.
+1.Initialization
+2.Condition
+3.Execution
+4.Increment /Decrement
+
+To Print Even Number
+Pesudocode:
+//Initialize the variable input as 20
+//Iterate the values from 1 to input
+//To check the number is even or not
+//Print the Even number
+
+
+
+1*10=10
+2*10=20
+3*10=30
+
+Swapping Between Two Numbers
+int a=10;
+int b=20;
+
+output:
+a=20;
+b=10;
+
+
+*
+**
+***
+****
+*****
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
