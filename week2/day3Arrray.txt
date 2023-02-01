@@ -1,0 +1,76 @@
+
+Arrays:
+
+1.primitiveData types
+1.int 
+2.float
+3.long
+4.double
+5.short
+6.byte
+7.boolean
+8.char
+
+int a=10;
+int b=20;
+int c=30;
+
+Array is a container to store the multiple data of same data type
+Array is collections of similar data types
+
+how to declare an Array:
+Array litral:
+ int[] num={1,2,3,4,5,6};
+
+Array using new keyword:
+String[] name=new name[5];
+
+1.int[]
+2.float[]
+3.long[]
+4.double[]
+5.short[]
+6.byte[]
+7.boolean[]
+8.char[]
+
+length;
+to get the size of an Array
+
+Array Limitation:
+1.Size is fixed
+2.Starting index from 0
+3.We can not increse the Array size at run time
+
+int[] number={1,2,3,4,5};
+   //length 5
+Array index starting from 0
+             num[0]=1;
+             num[1]=2;
+             num[2]=3;
+             num[3]=4;
+             num[4]=5;
+
+public class PrintNumber{
+
+public static void main (String[] args){
+
+int[] number={1,2,3,4,5,6,7,8};
+
+for(int i=0;i<number.length;i++){
+
+System.out.println(number[i]);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
