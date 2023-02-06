@@ -1,0 +1,49 @@
+
+String
+String is a class,Non-Primitive datatypes
+String is an Immutable object which means it is constant ,and it can not be changed once it has been created.
+
+
+How will you declare a String?
+1.String literal
+
+String text="Testleaf";
+
+2.String using new keyword
+String name=new String("Testleaf");
+
+.equal() to compare the string content / Values
+==       to compare the string memory address
+
+
+CharacterOccrance
+
+//declare a String input
+String input="Hexaware";
+ Output: e-2
+
+Pseudocode:
+1.Declare a String
+String input="Hexaware";
+
+2.Convert the String into charArray
+  char[] charArray=input.toCharArray();
+3.Initialize the count variable as 0
+int count=0;
+4.Iterate the characters
+for(int i=0;i<charArray.length;i++){
+
+check the condition if it is match
+if(charArray[i]=='e'){
+count=count+1; // or count++;
+5. , Increse the count variable
+6.Print the count
+System.out.println(count);
+
+
+
+
+
+
+
+
