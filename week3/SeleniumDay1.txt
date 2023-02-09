@@ -1,0 +1,85 @@
+Selenium:
+
+ Selenium can Automate only webbased application
+ Selenium open source
+
+
+Selenium.dev --
+Selenium stable version 4.8.0
+Components of Selenium: 
+
+Selenium IDE
+Selenium Grid
+Selenium WebDriver
+
+Selenium IDE->Selenium Integrated development Environment: Works based on record and playback way.
+Selenium WebDriver: executes test scripts through browser-specific drivers using the collection language bindings to drive the browsers.
+Selenium Grid: Support to run the test in multiple machines/OS/browsers
+
+
+Dom-Document Object Model
+HTML-Hyper Text MarkUp Language
+
+<html>
+  <head>
+  <body>
+</html>
+
+ Tag	    Description
+<html>	    Defines the root of the web page
+<a>	    Defines a hyperlink
+<button>    Defines a clickable button
+<div>	    Defines a section in a document
+<iframe>    Defines an inline frame
+<img>	    Defines an image
+<input>	    Defines an input control
+<option>    Defines an option in a drop-down list
+<select>    Defines a drop-down list
+<span>	    Defines a section in a document
+<table>	    Defines a table
+
+
+Locators:
+id            unique
+name          unique
+className     no White space
+linkText      <a> 
+partialLinkText <a> the text is partial
+When do not use:
+id --> if id having number don't use id
+name--->multiple matches
+className
+
+pink clr- tagName
+purple clr--Attribute
+blue clr- Attribute Value
+
+
+url:http://leaftaps.com/opentaps/control/main
+UserName:Demosalesmanager
+Password:crmsfa
+
+
+
+
+
+
+
+ext-gen867
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
