@@ -1,0 +1,72 @@
+
+
+
+Xpath:
+ xml path
+  Extendable Markup language
+Types:
+1.Absolute
+2.Relative
+
+Absolute Xpath:
+1.Start with single (/) slash
+2.Starting from root node
+/html/body/div[2]/div[2]/div/form/p/input[1]
+
+Relative xpath:
+1.Start with double(//) slash
+2.Starting from Current node
+
+1.Attribute based Xpath:
+//tagName[@Attribute='AttributeValue']
+//input[@id='password']
+
+Text Based Xpath:
+//tagName[text()='textValue']
+
+Collections Based Xpath:
+(//tagName[@Attribute='AttributeValue'])[index]
+(//input[@role='textbox'])[3]
+
+Contains Based Xpath:
+//tagName[contains(@Attribute,'PartialAttributeValue')]
+//tagName[contains(text(),'PartialTextValue')]
+
+
+Selenium Wait:
+1.Implicitly Wait
+2.Explicitly Wait (or) WebDriver Wait
+3.Fluent Wait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
