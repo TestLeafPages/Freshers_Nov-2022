@@ -1,0 +1,51 @@
+Palindrome:
+mom 
+m o m
+madam  
+
+Declare a String input values as madam
+String input="madam";
+
+//Conver the String into Character
+char[] charArray=input.toCharArray();
+
+//Declare a empty String
+String rev="";
+//iterate character using reverse for loop
+for(int i=charArray.length-1;i>=0;i--){
+
+     rev=rev+charArray[i];
+}
+//To compare the both String
+if(input.equals(rev)){
+System.out.println("The given String is Palindrome);
+}
+else{
+System.out.println("The given String is not Palindrome);
+
+}
+
+
+
+
+
+String text = "I am a software tester"; 
+               1   2  3  4      5
+text [0]=I        even
+text [1]=am        odd
+text [2]=a        even
+text [3]=software  odd
+text [4]=tester   even
+I am a software tester
+I ma a erawtfos
+
+
+
+
+
+
+
+
+
+
+
