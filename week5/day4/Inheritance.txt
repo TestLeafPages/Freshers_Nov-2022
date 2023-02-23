@@ -1,0 +1,98 @@
+Inheritance:
+Inheriting variables and methods from super class to subclass
+
+superclass -------- subclass
+parent               child
+
+baseclass -----------derivedclass
+parent                child
+
+Types of Inheritance:
+1.Single Inheritance
+2.multiple Inheritance
+3.MultiLevel Inheritance
+
+Advantages:
+1.codeReusability
+2.Easier Maintanance
+
+Single level Inheritance
+Selenium:
+ChromeDriver extends ChromiumDriver
+Java:
+WebDriverException extends RuntimeException
+or
+ArrayList extends AbstractList
+
+MultiLevel Inheritance:
+selenium:
+ChromeDriver extends ChromiumDriver
+ChromiumDriver extends RemoteWebDriver
+java:
+ArrayList extends AbstractList
+AbstractList extends AbstractCollection
+
+NoSuchElementException extends RuntimeException
+RuntimeException extends Exception
+
+
+
+PolyMorphism:
+poly-many
+morphism- multiple form of implementation
+
+1.MethodOverloading/compiletime polymorphism/static binding
+
+Same class and same method with different aruguments
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String NameOrId);
+driver.switchTo().frame(WebElement element);
+
+System.out.println();
+
+
+2.Method Overriding/RunTime polymorphism/Dynamic binding
+
+
+
+
+
+Abstraction:
+
+Interface:
+1.Design
+2.Just end with semicolon
+3.Iterface have only unimplemented method
+
+
+public class RemoteWebDriver implements WebDriver,
+  JavascriptExecutor,
+  HasCapabilities,
+  HasVirtualAuthenticator,
+  Interactive,
+  PrintsPage,
+  TakesScreenshot
+
+
+Overriding:
+Method Overriding/Runtime polymorphism/Dynamic binding
+different class with same method name buut the class should be inherited
+
+
+selenium
+driver.quit();
+java .equals();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
