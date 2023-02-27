@@ -1,0 +1,46 @@
+Exception:
+Exception is an abnormal condition which will interupt the normal flow of execution
+
+Exception Handling:
+To enable the flow of execution
+
+Types of Exception:
+1.Checked Exception  - CompileTimeException
+2.UnChecked Exception --RunTimeException
+
+1.NoSuchElementException
+2.InvalidSelectorException
+3.WebDriverException
+4.SessionNotCreatedException
+5.StaleElementReferenceException
+6.NoSuchFrameException
+7.NoSuchWindowException
+8.ElementClickInteruptException
+9.JavaScriptException
+10.NoAlertPresentException
+11.UnHandledAlertException
+12.NullPointerException
+13.ArithmaticException
+14.ArrayIndexOutOfBoundsException
+15.NumberFormatException
+16.IndexOutOfBoundsException
+17.ElementInteruptException
+
+
+
+CompiletimeException
+FileNotFoundException
+InterruptedException
+ClassNotFounException
+IOException
+SecurityException
+
+
+
+ Exception /Throwable  super most class 
+
+
+
+
+
+
