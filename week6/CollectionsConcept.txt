@@ -1,0 +1,69 @@
+Collections:
+collections as a group of individual objects
+Collection --- Interface
+Collections  -- class
+Single Dimentional Array
+List
+set
+
+Implementation Class
+1.ArrayList
+2.LinkedList
+List<>
+<>--Generic
+datatypes          Wrapper Class
+int             Integer
+short           Short
+long            Long
+byte            Byte
+float           Float
+char            Character
+boolean         Boolean
+double          Double
+
+List<String> objectName =new ArrayList<String>();
+
+List properties:
+1.Allows Duplicate
+2.maintain the insertion order
+
+
+foreach syntax:
+for(datatype ; localVariablname;variablename){
+}
+
+set:
+1.Does not allow duplicate
+2.May or may not be maintain the insertion order
+
+Implementation Class:
+1.HashSet  --Hashing Algorithm -To generate the              random output  
+2.LinkedHashSet --Maintain the insertion order
+3.TreeSet       ---  maintain the Ascii order
+
+
+LinkedHashSet:
+[Murali, Wajid, Sathish, Dharun, Prakash]
+
+
+TreeSet:
+[Dharun, Murali, Prakash, Sathish, Wajid]
+HashSet:
+[Sathish, Wajid, Dharun, Prakash, Murali]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
