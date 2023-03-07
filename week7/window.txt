@@ -1,0 +1,21 @@
+windowHandle()---Current Active Window
+windowHandles()---Opened all windows
+
+CDwindow-FC24771A3BEEC62EA682B862D68B06B2
+CDwindow-7B5504DE2E2404F54D2A18D7D32BF588
+
+elder sibling xpath to younger sibling xpath:
+elder xpath/following-sibling::younger tagname
+//label[text()='Username']/following-sibling::input
+
+younger sibling to elder sibling:
+younger xpath/preceding-sibling::elder tagname
+//input[@id='password']/preceding-sibling::label
+
+elder cousin  to younger cousin :
+elder cousin xpath to younger cosin xpath
+//label[text()='Username']/following::input[@id='password']
+
+younger Cousin to elder cousin
+younger cousin xpath to elder cousin xpath
+(//input[@id='password']/preceding::label)[2]
