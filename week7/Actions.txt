@@ -1,0 +1,29 @@
+Actions --class
+Action ---Interface
+
+Actions buider=new Actions(driver);
+
+
+
+<table> table
+<th> </th>table header
+<tr>  table row
+<td> </td>table data
+</tr>
+
+Granparent to grandchild
+granparent xpath // grandchild xpath or tagname
+//form[@id='login']//label
+
+GrandChild to GrandParent
+grand child xpath /ancesstor::grand parent tag name
+
+
+
+
+
+
+
+
+
+</table>
