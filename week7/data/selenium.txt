@@ -1,0 +1,238 @@
+Selenium:
+ Selenium can automate web based application.
+ Selenium is a open source.
+
+Selenium Components:
+ 1.Selenium IDE
+ 2.Selenium WebDriver
+ 3.Selenium Grid
+
+
+Locators;          use              don't use
+1.id              unique          if id has number 
+                                  don't use id
+2.name            unique         if it is multiple                                     matches dont use name
+3.className  - no white space   if it is has white                                    space dont use classname
+4.linkText       <a> 
+5.partialLinkText   <a>
+6.tagName
+7.xPath
+8.cssSelector
+
+
+XPath:
+ XPath-->XML path Extendable Markup Language
+1.Absolute xpath
+2.Relative xPath
+
+Absolute xpath              Relative xPath 
+1.starting from root node    Starting from current node
+2.start with /              start with // 
+
+
+
+WebDriverManager.chromedriver().setup();
+ChromeDriver driver =new ChromeDriver();
+
+4.6.0
+ChromeDriver driver =new ChromeDriver();
+
+driver.get("https://www.facebook.com/");
+
+driver.get()                    driver.navigate()
+
+
+findElement()                   findElements()
+single element                 multiple element
+returntypeis WebElement  return type isList<WebElement>
+NosuchElementException      EmptyList-->list size is 0
+
+Xpath:
+Attribute based xpath:
+//tagName[@attribute='attributeValue']
+//input[@class='a-input-text a-span12 auth-autofocus auth-required-field']
+
+Text based xpath:
+//tagname[text()='textvalue']
+//span[text()='Continue']
+
+Contains Xpath
+//tagName[contains(text(),'partial text value')]
+//span[contains(text(),'Continue')]
+
+//tagName[contains(@attribute,'partial attribute value')]
+//span[contains(@attribute,'Continue')]
+
+Index based xpath
+(//tagname[@attribute='attributevalue'])[index]
+(//span[text()='Continue'])[1]
+
+DropDown:      (Select and Options tag)
+WebElement dropDown=driver.findElement(By.xpath("//span[contains(@attribute,'Continue')]"));
+
+Select selectValue=new Select(dropDown);
+selectValue.selectByValue("");
+selectValue.selectByVisibleText("");
+selectValue.selectByIndex();
+
+Target Locator
+1.Alert
+2.Frame
+3.WindowHandling
+
+switchTo() --->TargetLocator
+
+TargetLocator--Interface
+TargetLocator  ---Implementation Class---RemoteTargetLocator
+
+
+Alert:
+
+Alert ---> build by javascript
+Alert---Interface---Implementation class--RemoteAlert
+Types of Alert:
+1.Model Dialogue
+   1.Simple Alert
+   2.Confirmation Alert
+   3.Prompt Alert
+2.Non-Model Dialogue
+  Sweet Alert
+Alert methods: 
+getText();
+accept();
+dismiss();
+sendKeys();
+
+driver.switchTo().alert();
+
+NoAlertPresentException
+UnHandledAlertException
+
+Instance URL: https://dev140572.service-now.com/
+Username: admin
+Password: P-qQ7@umSYz8
+
+3 ways to switch frame:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String nameOrId);
+driver.switchTo().frame(WebElement ele);
+
+
+driver.switchTo().defaultContent();
+
+driver.switchTo().parentFrame();
+NoSuchFrameException:
+
+driver.switchTo().frame(WebElement ele);--- NoSuchElementException
+
+
+WindowHandling:
+windowHandle();-- current window   return type String
+windowHandles(); --opened new window  return type Set<String>
+
+NoSuchWindowException---
+
+Set---Implementation clas --LinkedHashSet
+
+Set<String> openedWindow=driver.getWindowHandles();
+
+//create an empty list
+List<String> newWindow=new ArrayList<String>(openedWindow);
+//move the controll to child window
+driver.switchTo().window(newWindow.get(1));
+
+
+
+driver.quit();
+driver.close();
+
+Selenium Architecture:
+
+
+java library                        chrome
+(java binding)-------w3c protocol---driver----chrome browser(google)
+
+                                    edge
+(java binding)-------w3c protocol---driver----Edge browser(Microsoft)
+
+                                    safari
+(java binding)-------w3c protocol---driver----safari browser(Mac)
+
+                                    firefox
+(java binding)-------w3c protocol---driver----firefox browser(Mozila)
+
+
+
+
+
+
+
+
+Actions class:
+
+Actions class does not throw any exception
+
+Action --interface
+Actions --class
+
+
+
+
+elementToBeClickable
+invisibilityOfElementLocated
+presenceOfElementLocated
+visibilityOfElementLocated
+stalenessOf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+id=ext-gen867   10196   id=ext-gen872
